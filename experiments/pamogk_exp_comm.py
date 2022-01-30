@@ -326,6 +326,7 @@ class Experiment1(object):
         rs_pat_list = simplify_pat_ids(rs_pat)
         rp_pat_list = simplify_pat_ids(rp_pat)
         som_pat_list = simplify_pat_ids(som_pat.keys())
+        
 
         intersection_list = list(
             set(rs_pat_list).intersection(rp_pat_list, som_pat_list)
